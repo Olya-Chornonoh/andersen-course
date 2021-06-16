@@ -17,4 +17,9 @@ a{
 .flex_row{
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+}
+
+div{
+  margin:20px;
 }
