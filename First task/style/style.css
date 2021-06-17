@@ -1,7 +1,7 @@
-body{
-  margin: 15px;
+*{
+  margin: 0px;
+  padding: 5px;
   background-color: #f3f3f3;
-  font-size: 17px;
 }
 
 a{
@@ -14,12 +14,33 @@ a{
   font-size: 20px;
 }
 
-.flex_row{
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
 div{
   margin:20px;
+}
+
+input{
+  width: 200px;
+  background-color: #fff;
+}
+
+p{
+  font-size: 20px;
+}
+
+img{
+  width: 750px;
+  height: 500px;
+}
+
+li{
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+a.sign_up{
+  float: right;
+}
+
+.name_site{
+  text-align: center;
 }
